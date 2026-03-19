@@ -7,7 +7,7 @@ class Puddle < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/howenyap/puddle/releases/download/v0.1.0/puddle-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "sha256:0fe35a719b1f4805f444365207f82a3fc45435d96f339fb3eac9e3b7eb298618"
+      sha256 "0fe35a719b1f4805f444365207f82a3fc45435d96f339fb3eac9e3b7eb298618"
     end
   end
 
