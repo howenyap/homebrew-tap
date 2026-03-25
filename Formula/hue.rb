@@ -2,12 +2,12 @@ class Hue < Formula
   desc "CLI to synchronise themes across Zed and Ghostty"
   homepage "https://github.com/howenyap/hue"
   license "MIT"
-  version "0.2.1"
+  version "0.3.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/howenyap/hue/releases/download/v0.2.1/hue-v0.2.1-aarch64-apple-darwin.tar.gz"
-      sha256 "608bf57f589cb7f6654cc2e44445df60eca678ecedfa11fa669d4ee6a1c461ea"
+      url "https://github.com/howenyap/hue/releases/download/v0.3.0/hue-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "sha256:70737565115b4ae9bf1c491604e2a0b297088f696293d5c39090e681ccbf0973"
     end
   end
 
