@@ -2,7 +2,7 @@ class Hue < Formula
   desc "CLI to synchronise themes across Zed and Ghostty"
   homepage "https://github.com/howenyap/hue"
   license "MIT"
-  version "0.1.0"
+  version "0.2.1"
 
   on_macos do
     if Hardware::CPU.arm?
