@@ -6,8 +6,8 @@ class Hue < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/howenyap/hue/releases/download/v0.1.0/hue-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0789ec4abc2e43bca7d3d49db63465a00f8f347b8f7e4ff63024df0f8027cceb"
+      url "https://github.com/howenyap/hue/releases/download/v0.2.1/hue-v0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "608bf57f589cb7f6654cc2e44445df60eca678ecedfa11fa669d4ee6a1c461ea"
     end
   end
 
